@@ -1,4 +1,4 @@
-var FMODE = 'feedImm';
+var FMODE; // = 'feedImm';
 
 class feedMode {
 	constructor(vin) {

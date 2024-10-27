@@ -3,8 +3,6 @@
 		
 		<?php require_once('feedT.php'); ?>
 		
-		<p><a href='report/report.php'>report</a></p>
-		
 				<ol>
 			<?php	require_once(__DIR__ . '/../../config.php');
 					$t = '';
@@ -18,6 +16,8 @@
 			
 		</ol>
 		
+		<p><a href='report/report.php'>results</a></p>
+		<p><a href='/t/23/04/IQ/extra/instructions.html'>directions</a></p>
 		<p><a href='/t/23/04/IQ/'>IQ home</a></p>
 		
 	</div>
