@@ -1,0 +1,47 @@
+body { font-family: sans-serif; }
+
+.ro10:nth-child(even) { background-color: #e5e5e5; }
+
+p { margin: 0; }
+.check { 
+	font-size: 120%;
+	display: inline-block; 
+}
+.q2r { 
+	font-family: monospace; 
+	display: inline-block; 
+}
+
+.tasknind { font-size: 75%; opacity: 0.6; }
+
+.t5p05 {
+	position: static;
+	display: inline-block;
+	margin: 0;
+	width: 9em; 
+	height: 1.2em; 
+	text-align: center; 
+}
+
+.t510 {
+		
+	/* top right bottom left */
+	display: inline-block;
+	background-color: white;
+	width:  3em;
+	height: 1.5em;
+	margin: 0 1em 0 0 ;
+	padding-top: 0em;
+}
+
+.t520 {
+		display: inline-block;
+		font-family: Arial; 
+		height: 1em;
+		width : 1em;
+		margin: 0 auto 0 auto;
+		font-size: 100%;
+		color:  #0059b3;
+		font-weight: bold;
+	
+}
