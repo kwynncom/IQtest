@@ -6,8 +6,8 @@ class t1inter {
 	
 	constructor() {
 		GVO = this;
-		this.tce = getAnswerClickE();
-		this.tce.addEventListener('click', GVO.bc10);
+		// this.tce = getAnswerClickE();
+		document.body.addEventListener('click', GVO.bc10);
 		
 	}
 	
@@ -15,7 +15,7 @@ class t1inter {
 	
 	bc10(evin) {
 		
-		GVO.tce.removeEventListener('click', GVO.bc10);
+		document.body.removeEventListener('click', GVO.bc10);
 		
 		byid('estatement').style.display = 'none';
 		byid('equestion' ).style.display = 'block';
@@ -38,7 +38,7 @@ class t1inter {
 		
 		await feedback(e.dataset.a, e.dataset.iscor === '1');
 		
-		if (FMODE === 'feedImm') setTimeout(() => {		GVO.tce.addEventListener('click', GVO.bc20);	}, 10);
+		if (FMODE === 'feedImm') setTimeout(() => {		document.body.addEventListener('click', GVO.bc20);	}, 10);
 		else { GVO.bc20(); return; }
 
 		byid('esrepeat').style.visibility = 'visible';
