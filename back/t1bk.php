@@ -3,6 +3,7 @@
 require_once('utils.php');
 require_once(__DIR__ . '/../dat/t1Q.php');
 
+#[AllowDynamicProperties]
 class IQTask1Back extends IQTask1Questions {
 	
 	public readonly object $quaps;

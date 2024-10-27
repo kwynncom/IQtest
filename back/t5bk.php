@@ -2,6 +2,7 @@
 
 require_once('utils.php');
 
+#[AllowDynamicProperties]
 class IQTask5Back {
 	
 	public readonly object $quaps;

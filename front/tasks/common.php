@@ -2,6 +2,7 @@
 
 require_once(__DIR__ . '/../commonFront.php');
 
+#[AllowDynamicProperties]
 abstract class IQTaskFront {
 	protected function loadBack() {
 		$n = isrv('n');

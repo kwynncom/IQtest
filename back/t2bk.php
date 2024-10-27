@@ -2,6 +2,7 @@
 
 require_once('utils.php');
 
+#[AllowDynamicProperties]
 class IQTask2Back {
 	
 	const cln = 4;
