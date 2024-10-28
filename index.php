@@ -17,7 +17,7 @@
 		<h1>IQ test</h1>
 		
 		<ul>
-			<li><a href='./front/menuMain.php'>take (my implementation of) the test</a></li>
+			<li><a href='./front/menuMain.php'>take the test</a></li>
 			<li><a href='/t/23/04/IQ/extra/instructions.html'>directions</a></li>
 			<li><a href='./extra/worksCited.html'>works cited</a></li>
 			<li><a href='https://github.com/kwynncom/IQtest'>source code</a></li>
